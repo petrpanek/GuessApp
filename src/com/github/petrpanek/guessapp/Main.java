@@ -24,6 +24,8 @@ public class Main extends Application {
 			Parent root = loader.load();
 			
 			primaryStage.setTitle("GuessApp");
+			primaryStage.setMinWidth(660);
+			primaryStage.setMinHeight(550);
 	        primaryStage.setScene(new Scene(root));
 	        primaryStage.show();
 		} catch(Exception e) {
